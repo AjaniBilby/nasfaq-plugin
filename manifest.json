@@ -1,0 +1,13 @@
+{
+  "name": "Better NASFAQ",
+  "description": "Bet better",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+	"permissions": ["webRequest", "activeTab", "scripting"],
+	"action": {
+    "default_popup": "popup.html"
+  }
+}
